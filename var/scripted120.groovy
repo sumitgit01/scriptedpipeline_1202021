@@ -13,7 +13,7 @@ cd nodeapp_repo
 git checkout $BRANCH
 '''
 }
-Stage ("build")
+stage ("build")
 {
 sh '''
 cd nodeapp_repo
